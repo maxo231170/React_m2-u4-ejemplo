@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from "react";
 import ProductoDetalle from "../Components/ProductoDetalle"
+
 function Producto(props){
     console.log(props.match.params.id)
     const [producto,setProducto] = useState({})
